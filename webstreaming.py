@@ -5,7 +5,7 @@ Created on Sun Aug 23 22:21:39 2020
 @author: ANIKETH
 """
 from packages import social_distancing_config as config
-from packages.Object_detection import detect_people
+from packages.detection import detect_people
 from scipy.spatial import distance as dist
 import numpy as np
 import imutils
